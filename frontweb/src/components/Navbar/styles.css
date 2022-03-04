@@ -1,28 +1,63 @@
 .main-nav {
-    padding-left: 20px;
-    min-height: 70px;
+  padding-left: 40px;
+  min-height: 70px;
 }
 
-.nav-logo-text, .nav-logo-text:hover {
-    color: #00285F;
+.nav-logo-text {
+  color: #00285f;
+  padding-right: 90px;
+  margin-left: 100px;
+}
+
+.nav-logo-text:hover {
+  color: #fff;
 }
 
 .main-menu {
-    display: flex;
-    font-size: 18px;
-    width: 380px;
-    justify-content: space-between;
+  display: flex;
+  font-size: 24px;
+  width: 380px;
+  justify-content: space-between;
+  margin-left: 740px;
 }
 
 .main-menu a {
-    color:#00285F;
-}
-
-.main-menu a:hover {
-    color: #fff;
+  font-style: normal;
+  color: rgba(13, 14, 71, 0.5);
 }
 
 .main-menu a.active {
-    color: #00285F;
-    font-weight: bold;
+  font-weight: bold;
+  color: #00285f;
 }
+
+.main-menu a:hover {
+  color: #00285f;
+}
+
+.nav-login-logout {
+  display: none;
+}
+
+.nav-username {
+  display: none;
+}
+
+/*@media (min-width: 768px) {
+  .nav-login-logout {
+    display: unset;
+    color: #00285f;
+    margin-right: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .nav-login-logout {
+    margin-right: 40px;
+  }
+
+  .nav-username {
+    display: unset;
+    margin-right: 20px;
+  }
+}*/

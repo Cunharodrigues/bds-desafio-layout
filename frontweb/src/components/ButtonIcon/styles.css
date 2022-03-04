@@ -1,0 +1,42 @@
+.btn-container {
+  display: flex;
+  width: 270px;
+  height: 45px;
+  left: 105px;
+  top: 537px;
+  color: #fff;
+  
+}
+
+.btn-container button {
+  border-radius: 5px;
+  
+}
+
+*.btn h6 {
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 12px 37px 12px 36px;
+  background-color: #00285f;
+  border-radius: 5px;
+  
+}
+
+@media (min-width: 576px) {
+ .btn-icon-container {
+    width: 70px;
+    height: 70px;
+  }
+
+  .btn h6 {
+    font-size: 18px;
+    border: 5px, solid black;
+  }
+}
+
+
+/*width: 174px;
+height: 40px;
+left: 105px;
+top: 537px;*/
