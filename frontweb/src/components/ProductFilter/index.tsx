@@ -1,7 +1,7 @@
 import './styles.css';
 
 
-const ProductFilter = () => {
+/*const ProductFilter = () => {
 
     return (
         <div className="base-card product-filter-container">
@@ -24,4 +24,21 @@ const ProductFilter = () => {
     );
 };
 
-export default ProductFilter;
+export default ProductFilter;*/
+
+const Productfilter = () => {
+return (
+    <div className="base-card product-filter-container">
+        <div className="product-filter-input">
+          <input placeholder="Digite sua busca" />
+        </div>
+        <div className="filter-button">
+          <button className="btn">
+            <h6>Buscar</h6>
+          </button>
+        </div>
+    </div>
+  );
+};
+
+export default Productfilter;

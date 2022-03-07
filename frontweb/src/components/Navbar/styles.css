@@ -1,63 +1,55 @@
 .main-nav {
-  padding-left: 40px;
+  padding: 0px 20px 0px 20px;
   min-height: 70px;
-}
-
-.nav-logo-text {
-  color: #00285f;
-  padding-right: 90px;
-  margin-left: 100px;
+  background-color: #f78b00;
 }
 
 .nav-logo-text:hover {
-  color: #fff;
+  color: #00285f;
+}
+
+.nav-logo-text {
+  border: 0;
+}
+
+.navbar-toggler {
+  margin-top: 10px;
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0rem;
+}
+
+#topcars-navbar {
+  /*justify-content: first baseline;*/
 }
 
 .main-menu {
   display: flex;
+  justify-content: space-evenly;
   font-size: 24px;
-  width: 380px;
-  justify-content: space-between;
-  margin-left: 740px;
+  width: 320px;
+  border: 3px solid red;
+
+}
+
+.main-menu li {
+  font-size: 18px;
+  font-weight: 400;
+  border: 3px solid red;
+
 }
 
 .main-menu a {
-  font-style: normal;
-  color: rgba(13, 14, 71, 0.5);
-}
+  color: #00285f50;
 
-.main-menu a.active {
-  font-weight: bold;
-  color: #00285f;
 }
 
 .main-menu a:hover {
   color: #00285f;
 }
 
-.nav-login-logout {
-  display: none;
+.main-menu a.active {
+  color: #00285f;
+  font-weight: bold;
 }
-
-.nav-username {
-  display: none;
-}
-
-/*@media (min-width: 768px) {
-  .nav-login-logout {
-    display: unset;
-    color: #00285f;
-    margin-right: 15px;
-  }
-}
-
-@media (min-width: 992px) {
-  .nav-login-logout {
-    margin-right: 40px;
-  }
-
-  .nav-username {
-    display: unset;
-    margin-right: 20px;
-  }
-}*/

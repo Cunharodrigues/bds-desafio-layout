@@ -4,27 +4,27 @@ import ProductFilter from "../../components/ProductFilter";
 
 const Catalog = () => {
     return (
-        <div className="container my-4 catalog-container">
+        <div className="container my-4">
             <div className="catalog-filter-container">
                 <ProductFilter />
             </div>
             <div className="row">
-                <div className="col-sm-6 col-lg-4">
+                <div className="col-sm-6 col-lg-4 col-xl-4">
                     <ProductCard />
                 </div>
-                <div className="col-sm-6 col-lg-4">
+                <div className="col-sm-6 col-lg-4 col-xl-4">
                     <ProductCard />
                 </div>
-                <div className="col-sm-6 col-lg-4">
+                <div className="col-sm-6 col-lg-4 col-xl-4">
                     <ProductCard />
                 </div>
-                <div className="col-sm-6 col-lg-4">
+                <div className="col-sm-6 col-lg-4 col-xl-4">
                     <ProductCard />
                 </div>
-                <div className="col-sm-6 col-lg-4">
+                <div className="col-sm-6 col-lg-4 col-xl-4">
                     <ProductCard />
                 </div>
-                <div className="col-sm-6 col-lg-4">
+                <div className="col-sm-6 col-lg-4 col-xl-4">
                     <ProductCard />
                 </div>
             </div>
